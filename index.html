@@ -3,19 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Seatte travel</title>
+        <link rel="icon" type="image/png" href="imgbin_fe4df3478102f1d9dd310dc9491a6098.png">
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <div class="container">
         <div class="left">
-        <img class="size" src="./isaiah-dupon-TTL2_Q8gVpk-unsplash.jpg" 
-        alt="picture of space needle from seattle">
-        <p>Photo by <a href="https://unsplash.com/@ziggy034?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Isaiah Dupon</a> on <a href="https://unsplash.com/photos/high-rise-buildings-during-night-time-TTL2_Q8gVpk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+            <img class="main-img" src="./isaiah-dupon-TTL2_Q8gVpk-unsplash.jpg" 
+                alt="picture of space needle from seattle">
+                     <p class="credit">Photo by <a href="https://unsplash.com/@ziggy034?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Isaiah Dupon</a> on <a href="https://unsplash.com/photos/high-rise-buildings-during-night-time-TTL2_Q8gVpk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
         </p>
+        <div class="title">
+        <img class="logo" src="imgbin_fe4df3478102f1d9dd310dc9491a6098.png" alt="logo of odin">
+        <p>Seattle</p>
+        </div>
         </div>
         <div class="right">
-        <h1>hello</h1>
+                   <div class="right-title">
+            <h3>TRAVEL TO THE PACIFIC NORTHWEST</h3>
+            </div>
+             <div class="lower-half">
+            <div class="lower-text">
+        <p class="main-text"> This is obviously not a real online service! But you should definitely travel to Seattle where the city doesnt sleep!! From a diverse options of hotels, restaurants, hiking, scenery, twilight, fifty shades of grey etc.</p>
+        <h5>You <i>know</i> you want to.</h5>
+        </div>   
+            <div class="form">
+                <form action="#"  method="post">
+                    <h2>Let's Sign Up</h2>
+                    <!--Made the form divided in 2 column sections to be able to line them up vertically with flex-->
+                    <div class="whole-form">
+                    <div class="left-form">
+                    <p>
+                    <label for="firstname"> First Name </label>
+                    <input type="text" id="firstname" name="firstname">
+                    </p>
+                              <p>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </p>
+                       <p>
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password" required>
+                        </p>
+                    </div>
+                    <div class="right-form">
+                     <p>
+                        <label for="lastname">Last Name</label>
+                        <input type="text" id="lastname" name="lastname">
+                    </p>
+                    <p>
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone">
+                    </p>
+                             <p>
+                        <label for="confirm">Confirm Password</label>
+                        <input type="password" name="password" id="confirm">
+                        </p>
+                    </div>
+                    </div>
+               
+                         </div>
+                         
+                       <div class="bottom">
+                    <div class="submit">
+
+                <button type="submit">Create Account?</button>
+                <p>Already have an account? <a href="">Log in</a></p>
+                </div>
+            </div>
+               </form>    
+
+        </div>
        </div>
     </div>
 </body>
